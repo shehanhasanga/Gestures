@@ -11,6 +11,11 @@
 		BEA7AF8427C48AD7007322D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7AF8327C48AD7007322D8 /* ContentView.swift */; };
 		BEA7AF8627C48AD9007322D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA7AF8527C48AD9007322D8 /* Assets.xcassets */; };
 		BEA7AF8927C48AD9007322D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA7AF8827C48AD9007322D8 /* Preview Assets.xcassets */; };
+		BEA7AF9027C48AF2007322D8 /* Magnifing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7AF8F27C48AF2007322D8 /* Magnifing.swift */; };
+		BEA7AF9227C48E71007322D8 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7AF9127C48E71007322D8 /* Rotation.swift */; };
+		BEA7AF9427C48FF1007322D8 /* Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7AF9327C48FF0007322D8 /* Drag.swift */; };
+		BEA7AF9627C4980A007322D8 /* DragSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7AF9527C4980A007322D8 /* DragSheet.swift */; };
+		BEC7DCCD27C4B3BC00989B33 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7DCCC27C4B3BC00989B33 /* Mask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BEA7AF8327C48AD7007322D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEA7AF8527C48AD9007322D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA7AF8827C48AD9007322D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEA7AF8F27C48AF2007322D8 /* Magnifing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magnifing.swift; sourceTree = "<group>"; };
+		BEA7AF9127C48E71007322D8 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		BEA7AF9327C48FF0007322D8 /* Drag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag.swift; sourceTree = "<group>"; };
+		BEA7AF9527C4980A007322D8 /* DragSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragSheet.swift; sourceTree = "<group>"; };
+		BEC7DCCC27C4B3BC00989B33 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				BEA7AF8327C48AD7007322D8 /* ContentView.swift */,
 				BEA7AF8527C48AD9007322D8 /* Assets.xcassets */,
 				BEA7AF8727C48AD9007322D8 /* Preview Content */,
+				BEA7AF8F27C48AF2007322D8 /* Magnifing.swift */,
+				BEA7AF9127C48E71007322D8 /* Rotation.swift */,
+				BEA7AF9327C48FF0007322D8 /* Drag.swift */,
+				BEA7AF9527C4980A007322D8 /* DragSheet.swift */,
+				BEC7DCCC27C4B3BC00989B33 /* Mask.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA7AF8427C48AD7007322D8 /* ContentView.swift in Sources */,
+				BEA7AF9227C48E71007322D8 /* Rotation.swift in Sources */,
+				BEC7DCCD27C4B3BC00989B33 /* Mask.swift in Sources */,
 				BEA7AF8227C48AD7007322D8 /* GesturesApp.swift in Sources */,
+				BEA7AF9627C4980A007322D8 /* DragSheet.swift in Sources */,
+				BEA7AF9027C48AF2007322D8 /* Magnifing.swift in Sources */,
+				BEA7AF9427C48FF1007322D8 /* Drag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
